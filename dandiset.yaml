@@ -42,9 +42,10 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - TwoPhotonSeries
-citation: Renard, Anthony ; Foustoukos, Georgios; Crochet, Sylvain; Petersen, Carl  (2026)
-  Rapid cortical reorganization tracks goal-directed sensorimotor learning in real
-  time (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002039/draft
+citation: Renard, Anthony ; Foustoukos, Georgios; Iuga Maya ; Bech, Pol; Dard, Robin
+  ; Crochet, Sylvain; Petersen, Carl  (2026) Rapid cortical reorganization tracks
+  goal-directed sensorimotor learning in real time (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/002039/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/02s376052
@@ -90,6 +91,47 @@ contributor:
   - dcite:Software
   - dcite:Validation
   - dcite:Visualization
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne
+    schemaKey: Affiliation
+  email: maya_iuga@yahoo.ro
+  includeInCitation: true
+  name: 'Iuga Maya '
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:Methodology
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne
+    schemaKey: Affiliation
+  email: pol.bech@epfl.ch
+  identifier: 0000-0002-3388-854X
+  includeInCitation: true
+  name: Bech, Pol
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: École Polytechnique Fédérale de Lausanne
+    schemaKey: Affiliation
+  email: robin.dard@epfl.ch
+  identifier: 0009-0000-6221-0407
+  includeInCitation: true
+  name: 'Dard, Robin '
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/02s376052
