@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -25,8 +26,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 267355078158
-  numberOfFiles: 1463
+  numberOfBytes: 274002713665
+  numberOfFiles: 1470
   numberOfSubjects: 131
   schemaKey: AssetsSummary
   species:
@@ -41,19 +42,45 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - TwoPhotonSeries
-citation: FOUSTOUKOS, GEORGIOS (2026) Rapid cortical reorganization tracks goal-directed
+citation: Foustoukos, Georgios (2026) Rapid cortical reorganization tracks goal-directed
   sensorimotor learning in real time (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002039/draft
 contributor:
 - affiliation: []
-  email: foustgeorge@gmail.com
+  email: georgios.foustoukos@epfl.ch
   includeInCitation: true
-  name: FOUSTOUKOS, GEORGIOS
+  name: Foustoukos, Georgios
   roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:Producer
+  - dcite:Researcher
+  - dcite:Resources
+  - dcite:Software
+  - dcite:Validation
+  - dcite:Visualization
+  schemaKey: Person
+- email: carl.petersen@epfl.ch
+  name: 'Petersen, Carl '
+  roleName:
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:Researcher
+  - dcite:Supervision
+  - dcite:Author
+  - dcite:Conceptualization
   - dcite:ContactPerson
+  - dcite:Resources
+  - dcite:Validation
   schemaKey: Person
 dateCreated: '2026-10-27T06:42:07.432562+00:00'
 description: "Dataset related to the publication:\nRapid cortical reorganization tracks
   goal-directed sensorimotor learning in real time, https://doi.org/10.7554/eLife.111818.1"
+ethicsApproval: []
 id: DANDI:002039/draft
 identifier: DANDI:002039
 license:
@@ -62,8 +89,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002039/versions/draft/assets/
 name: Rapid cortical reorganization tracks goal-directed sensorimotor learning in
   real time
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002039/draft
 version: draft
+wasGeneratedBy: []
