@@ -3,14 +3,48 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_329
+  name: Primary somatosensory area, barrel field
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 274002713665
+  numberOfFiles: 1470
+  numberOfSubjects: 131
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - BehavioralEvents
+  - OpticalChannel
+  - BehavioralEpochs
+  - PlaneSegmentation
+  - ImagingPlane
+  - TwoPhotonSeries
 citation: Renard, Anthony ; Foustoukos, Georgios; Iuga, Maya ; Bech, Pol; Dard, Robin
   ; Crochet, Sylvain; Petersen, Carl  (2026) Rapid cortical reorganization tracks
   goal-directed sensorimotor learning in real time (Version draft) [Data set]. DANDI
@@ -116,7 +150,6 @@ contributor:
   - dcite:Resources
   - dcite:Researcher
   - dcite:Supervision
-  - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/02s376052
