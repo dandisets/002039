@@ -8,41 +8,10 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 274002713665
-  numberOfFiles: 1470
-  numberOfSubjects: 131
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ProcessingModule
-  - BehavioralEvents
-  - OpticalChannel
-  - BehavioralEpochs
-  - PlaneSegmentation
-  - ImagingPlane
-  - TwoPhotonSeries
-citation: Renard, Anthony ; Foustoukos, Georgios; Iuga Maya ; Bech, Pol; Dard, Robin
+citation: Renard, Anthony ; Foustoukos, Georgios; Iuga, Maya ; Bech, Pol; Dard, Robin
   ; Crochet, Sylvain; Petersen, Carl  (2026) Rapid cortical reorganization tracks
   goal-directed sensorimotor learning in real time (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/002039/draft
@@ -98,7 +67,7 @@ contributor:
     schemaKey: Affiliation
   email: maya_iuga@yahoo.ro
   includeInCitation: true
-  name: 'Iuga Maya '
+  name: 'Iuga, Maya '
   roleName:
   - dcite:Author
   - dcite:DataCollector
@@ -168,9 +137,23 @@ contributor:
   - dcite:Resources
   - dcite:Validation
   schemaKey: Person
+- awardNumber: '310030_219343 '
+  identifier: https://ror.org/00yjd3n13
+  name: Swiss National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.snf.ch/en
+- awardNumber: 'TMAG-3_209271 '
+  identifier: https://ror.org/00yjd3n13
+  name: Swiss National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.snf.ch/en
 dateCreated: '2026-10-27T06:42:07.432562+00:00'
-description: "Dataset related to the publication:\nRapid cortical reorganization tracks
-  goal-directed sensorimotor learning in real time, https://doi.org/10.7554/eLife.111818.1"
+description: 'Dataset related to the publication: Renard, Foustoukos et al., https://doi.org/10.7554/eLife.111818.1.
+  Processed data and code are available via Zenodo: ZENODO_LINK and GitHub: GITHUB_LINK'
 ethicsApproval: []
 id: DANDI:002039/draft
 identifier: DANDI:002039
@@ -180,7 +163,14 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002039/versions/draft/assets/
 name: Rapid cortical reorganization tracks goal-directed sensorimotor learning in
   real time
-relatedResource: []
+relatedResource:
+- identifier: doi.org/10.7554/eLife.111818.1
+  name: Rapid cortical reorganization tracks goal-directed sensorimotor learning in
+    real time
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.7554/eLife.111818.1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
